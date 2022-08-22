@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <header>
+          <h1 id="title" class="text-center"> Usage Survey | Pinterest </h1>
+          <hr>
+          <p id="description" class="text-center p1">Survey to know the use of Pinterest</p>
+        </header>
+      </div>
+      <div class="forms">
+        <form id="survey-form">
+          <fieldset>
+            <label id="name-label">Name <input class="in" id="name" type="text" placeholder="Enter your name" required></label>
+            <label id="email-label">Email <input class="in" id="email" type="email" placeholder="Enter your email" required></label>
+            <label id="number-label">Age <input class="in" id="number" type="number" min="10" max="99" placeholder="Enter your age" required></label>
+          </fieldset>
+          <fieldset>
+            <label name="label-dropdown">Languaje
+              <select name="languaje" class="in" id="dropdown">
+                <option disabled selected value>Choose your languaje</option>
+                <option value="English">English</option>
+                <option value="Portuguese">Portuguese</option>
+                <option value="Spanish">Spanish</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset>
+            <p>What do you use Pinterest for?</p>
+            <label><input type="radio" name="use-Pinterest" value="To-Post"> To post</label>
+            <label><input type="radio" name="use-Pinterest" value="To-See-Post"> To see posts</label>
+            <label><input type="radio" name="use-Pinterest" value="Both"> Both</label>
+          </fieldset>
+          <fieldset>
+            <p>Select the topics of your interest</p>
+            <label><input type="checkbox" name="Topics" value="Personal-Care"> Personal Care</label>
+            <label><input type="checkbox" name="Topics" value="Luxury-articles"> Luxury articles</label>
+            <label><input type="checkbox" name="Topics" value="Food"> Food</label>
+            <label><input type="checkbox" name="Topics" value="Sports"> Sports</label>
+            <label><input type="checkbox" name="Topics" value="Cars"> Cars</label>
+            <label><input type="checkbox" name="Topics" value="Anime"> Anime</label>
+            <label><input type="checkbox" name="Topics" value="Lifestyle"> Lifestyle</label>
+            <label><input type="checkbox" name="Topics" value="Fitness"> Fitness</label>
+            <label><input type="checkbox" name="Topics" value="Home"> Home</label>
+            <label><input type="checkbox" name="Topics" value="Make-up"> Make-up</label>
+            <label><input type="checkbox" name="Topics" value="Technology"> Technology</label>
+            <label><input type="checkbox" name="Topics" value="Learning"> Learning</label>
+            <label><input type="checkbox" name="Topics" value="Aesthetic"> Aesthetic</label>
+          </fieldset>
+          <fieldset>
+            <label>Additional comments about the use of Pinterest<textarea class="in" name="comments" id="textarea" placeholder="Pinterest is useful for..."></textarea></label>
+          </fieldset>
+          <input type="submit" value="Submit" id="Submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
